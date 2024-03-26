@@ -191,7 +191,7 @@ public:
         tail = head;
     }
 
-    int get(int index)
+    T get(int index)
     {
         if (index < 0 || index >= length)
             return T();
