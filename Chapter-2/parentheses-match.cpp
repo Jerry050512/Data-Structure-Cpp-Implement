@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stack>
 #include <string>
-#include "stack.cpp" // Include the file containing the Stack class
+#include "stack.cpp"
 
 using namespace std;
 

@@ -2,7 +2,7 @@
 #include <string>
 #include <cctype>
 #include <unordered_map>
-#include "stack.cpp" // Include the file containing the Stack class
+#include "stack.cpp"
 
 using namespace std;
 

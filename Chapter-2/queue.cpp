@@ -6,7 +6,7 @@ template <typename T, size_t CAPACITY = 100>
 class Queue
 {
 private:
-    T *arr;
+    T arr[CAPACITY];
     int front, rear;
     size_t size, capacity;
 
@@ -14,14 +14,8 @@ public:
     Queue()
     {
         capacity = CAPACITY;
-        arr = new T[capacity];
         front = rear = -1;
         size = 0;
-    }
-
-    ~Queue()
-    {
-        delete[] arr;
     }
 
     bool isEmpty()

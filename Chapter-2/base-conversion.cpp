@@ -2,7 +2,7 @@
 #include <stack>
 #include <cmath>
 #include <cctype>    // For isdigit() and toupper()
-#include "stack.cpp" // Include the file containing the Stack class
+#include "stack.cpp"
 
 using namespace std;
 
